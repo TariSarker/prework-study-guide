@@ -1,0 +1,72 @@
+/* 
+    Colors
+    light green: #c8ffbf;
+    light pink: #FFCAD4;
+    dark green: #3B6064;
+*/
+
+
+* { /* adds this style to everything */
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    background-color: #c8ffbf;
+}
+
+header, 
+footer { /* This is actually called Don't Repeat Yourself (DRY) code */
+    width: 100%; 
+    height: 120px; 
+    background-color: #3B6064; 
+    color: white;
+    font-family: 'Concert One', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+ text-align: left;
+ padding-left: 40px;
+}
+
+img {
+ display: block;
+ height: 50px;
+ width: 50px;
+ margin-left: auto;
+ margin-right: auto;
+ border-radius: 5px;
+}
+
+ul {
+ padding-left: 40px;
+ font-size: 18px;
+}
+
+p {
+ text-align: center;
+ font-size: 16px;
+}
+
+.card {
+    background-color: #ffcad4b0;
+    /* width: 70%;
+    padding: 5px;
+    margin: 40px 5px 40px 5px;
+    display: grid;
+    grid-gap: 10px; */
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #3B6064;
+    border-radius: 5px;
+    box-shadow: 5px 10px #3b6064bd;
+    color: #3B6064;
+    font-family: 'Concert One', cursive; 
+  }
+
+  
