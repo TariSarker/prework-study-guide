@@ -24,13 +24,12 @@ footer { /* This is actually called Don't Repeat Yourself (DRY) code */
     font-family: 'Concert One', cursive;
 }
 
-h1 {
-    text-align: center;
+header {
+    height: fit-content;  
 }
 
-h2 {
- text-align: left;
- padding-left: 40px;
+h1, h2 {
+    text-align: center;
 }
 
 img {
@@ -67,6 +66,11 @@ p {
     box-shadow: 5px 10px #3b6064bd;
     color: #3B6064;
     font-family: 'Concert One', cursive; 
+  }
+
+  .card h2 {
+      text-align: left;
+      padding-left: 40px;
   }
 
   
